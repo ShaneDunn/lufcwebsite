@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #################
 ## jEdit
 #################
@@ -139,6 +140,12 @@ Desktop.ini
 #############
 
 *.py[co]
+=======
+*.py[cod]
+
+# C extensions
+*.so
+>>>>>>> e32046baa6377d371ba0ec3aa0aea7ce4e40c66e
 
 # Packages
 *.egg
@@ -152,6 +159,11 @@ var
 sdist
 develop-eggs
 .installed.cfg
+<<<<<<< HEAD
+=======
+lib
+lib64
+>>>>>>> e32046baa6377d371ba0ec3aa0aea7ce4e40c66e
 
 # Installer logs
 pip-log.txt
@@ -159,6 +171,7 @@ pip-log.txt
 # Unit test / coverage reports
 .coverage
 .tox
+<<<<<<< HEAD
 
 #Translations
 *.mo
@@ -168,3 +181,14 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+=======
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+>>>>>>> e32046baa6377d371ba0ec3aa0aea7ce4e40c66e
