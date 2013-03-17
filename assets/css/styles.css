@@ -1,0 +1,76 @@
+HTML {
+	BACKGROUND-IMAGE: url('/assets/images/background01.gif'); BACKGROUND-REPEAT: repeat-y; HEIGHT: 100%; FONT-SIZE: 16px
+}
+BODY {
+	LINE-HEIGHT: 24px; MARGIN: 24px 48px; FONT-FAMILY: "PT Serif", Georgia, serif; MAX-WIDTH: 600px; FONT-SIZE: 16px
+}
+P {
+	-moz-hyphens: auto; -webkit-hyphens: auto; -webkit-locale: "en"; hyphens: auto
+}
+header {
+	BACKGROUND-IMAGE: url('/assets/images/lufc_logov01.png'); BACKGROUND-REPEAT: no-repeat; background-position: right top; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 24px; MARGIN-TOP: -1px
+}
+SMALL {
+	FONT-SIZE: 10px
+}
+A {
+	COLOR: #f60000; TEXT-DECORATION: none; -webkit-transition: color, border-bottom 0.2s; -moz-transition: color, border-bottom 0.2s; -o-transition: color, border-bottom 0.2s; -ms-transition: color, border-bottom 0.2s; transition: color, border-bottom 0.2s
+}
+A:hover {
+	BORDER-BOTTOM: #ff5200 2px solid; COLOR: #ff5200
+}
+header A {
+	COLOR: #000
+}
+header H1 {
+	LINE-HEIGHT: 24px; MARGIN-BOTTOM: 0px; FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+header P {
+	FONT-SIZE: 14px
+}
+H2 {
+	MARGIN-TOP: 24px; MARGIN-BOTTOM: 12px; FONT-SIZE: 22px
+}
+H3 {
+	MARGIN-TOP: 24px; MARGIN-BOTTOM: 12px; FONT-SIZE: 18px
+}
+article {
+	MARGIN: 24px 0px
+}
+article H1 {
+	LINE-HEIGHT: 36px; MARGIN-TOP: 12px; MARGIN-BOTTOM: 24px; FONT-SIZE: 32px
+}
+DIV[role='directory'] H1 {
+	LINE-HEIGHT: 36px; MARGIN-TOP: 12px; MARGIN-BOTTOM: 24px; FONT-SIZE: 32px
+}
+article P {
+	MARGIN: 12px 0px
+}
+LI {
+	MARGIN: 12px 0px
+}
+footer {
+	PADDING-BOTTOM: 48px; MARGIN-TOP: -1px; BORDER-TOP: #000 1px solid; PADDING-TOP: 24px
+}
+CODE {
+	LINE-HEIGHT: 1; FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 16px; VERTICAL-ALIGN: baseline
+}
+PRE CODE {
+	MARGIN-TOP: 24px; WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; MARGIN-BOTTOM: 24px
+}
+EM {
+	FONT-STYLE: oblique
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+SUP {
+	VERTICAL-ALIGN: super
+}
+.footnote {
+	FONT-STYLE: oblique; MARGIN-BOTTOM: 12px; FONT-SIZE: 14px
+}
+.numeric-footnote {
+	LINE-HEIGHT: 1; FONT-SIZE: 12px; VERTICAL-ALIGN: super
+}
+

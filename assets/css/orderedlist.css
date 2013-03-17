@@ -1,0 +1,27 @@
+ol {
+    list-style-type:decimal;
+    list-style-position: inside;
+}
+ul {
+    list-style-type:disc;
+    list-style-position: inside;
+}
+
+ol ul { margin-left: 1.5em; padding-left: 1.5em; }
+
+/* LIST #1 */
+#list1 { }
+#list1 ul { list-style:none; text-align:center; border-top:1px solid #ff5200; border-bottom:1px solid #ff5200; padding:10px 0; }
+#list1 ul li { display:inline; text-transform:uppercase; padding:0 10px; letter-spacing:10px; }
+#list1 ul li a { text-decoration:none; color:#ff5200; }
+/*
+#list1 ul li a:hover { text-decoration:underline; }
+*/
+
+/* LIST #2 */
+#list2 { }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#ff5200; margin-left: 0em; padding-left: 1.5em; list-style-position: outside; }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal;  font-size:16px; color:#000; border-left: 1px solid #ff5200; }
+#list2 ol li p em { display:block; }
+

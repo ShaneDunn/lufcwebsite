@@ -1,0 +1,27 @@
+CAPTION {
+	TEXT-ALIGN: left; LINE-HEIGHT: 36px; MARGIN-TOP: 12px; MARGIN-BOTTOM: 24px; FONT-SIZE: 32px
+}
+TABLE {
+	WIDTH: 100%
+}
+TABLE[role='directory'] {
+	MARGIN-TOP: 12px; MARGIN-BOTTOM: 12px
+}
+TD {
+	PADDING-BOTTOM: 12px
+}
+TD A {
+	BACKGROUND-COLOR: #fff; PADDING-RIGHT: 5px
+}
+TR {
+	BACKGROUND-IMAGE: url('/assets/images/leader-dots.png'); BACKGROUND-REPEAT: no-repeat; background-size: 600px 24px
+}
+.article-title {
+	LINE-HEIGHT: 24px; FONT-SIZE: 16px
+}
+.article-date {
+	TEXT-ALIGN: right; FONT-STYLE: italic; FONT-SIZE: 12px
+}
+.article-date time {
+	BACKGROUND-COLOR: #fff; PADDING-LEFT: 5px
+}

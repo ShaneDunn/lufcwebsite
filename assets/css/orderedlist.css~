@@ -1,0 +1,10 @@
+ol {
+    list-style-type:decimal;
+    list-style-position: inside;
+}
+ul {
+    list-style-type:disc;
+    list-style-position: inside;
+}
+
+ol ul { margin-left: 1.5em; padding-left: 1.5em; }
